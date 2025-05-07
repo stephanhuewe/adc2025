@@ -4,8 +4,6 @@ using Microsoft.Extensions.VectorData;
 using Microsoft.SemanticKernel.Connectors.InMemory;
 using OpenAI.VectorStores;
 
-
-
 #pragma warning disable SKEXP0020 // Type is for evaluation purposes only and is subject to change or removal in future updates. Suppress this diagnostic to proceed.
 
 public class Movie
@@ -25,7 +23,7 @@ public class Demo
     public static async Task Main()
     {
         Movie superHeroMovie = new Movie() { MyKey = 1, Title = "ADC Comedy 2025" };
-        Movie superHeroMovie2 = new Movie() { MyKey = 2, Title = "ADC SuperHero 2025" };
+        Movie superHeroMovie2 = new Movie() { MyKey = 2, Title = "ADC Titanic 2025" };
         Movie superHeroMovie3 = new Movie() { MyKey = 2, Title = "ADC Batman 2025" };
 
         List<Movie> movies = new List<Movie>
